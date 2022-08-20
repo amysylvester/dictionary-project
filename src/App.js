@@ -11,7 +11,15 @@ export default function App() {
         <main>
           <Search />
         </main>
-        <footer className="App-footer">Coded by Amy C Sylvester</footer>
+        <footer className="App-footer">
+          Coded by Amy C Sylvester. <br />
+          Open-sourced on{" "}
+          <a href="https://github.com/amysylvester/dictionary-project.git">
+            GitHub
+          </a>{" "}
+          hosted on{" "}
+          <a href="https://eclectic-frangipane-718eca.netlify.app/">Netlify</a>.
+        </footer>
       </div>
     </div>
   );
