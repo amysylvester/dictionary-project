@@ -1,4 +1,11 @@
-.Title {
+.App-header {
+  color: blueviolet;
   margin: 30px 0;
   text-align: center;
+}
+
+.App-footer {
+  text-align: center;
+  font-size: x-small;
+  margin: 30px 0;
 }
