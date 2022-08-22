@@ -2,7 +2,6 @@ import React from "react";
 import Meaning from "./Meaning";
 
 export default function Results(props) {
-  console.log(props.definition);
   if (props.definition) {
     return (
       <div className="Definition">

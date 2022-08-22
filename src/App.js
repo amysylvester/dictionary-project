@@ -14,11 +14,22 @@ export default function App() {
         <footer className="App-footer">
           Coded by Amy C Sylvester. <br />
           Open-sourced on{" "}
-          <a href="https://github.com/amysylvester/dictionary-project.git">
+          <a
+            href="https://github.com/amysylvester/dictionary-project.git"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             GitHub
           </a>{" "}
           hosted on{" "}
-          <a href="https://eclectic-frangipane-718eca.netlify.app/">Netlify</a>.
+          <a
+            href="https://eclectic-frangipane-718eca.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>
+          .
         </footer>
       </div>
     </div>
