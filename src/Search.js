@@ -27,7 +27,11 @@ export default function Search() {
     <div className="Search">
       <section>
         <form onSubmit={search}>
-          <input type="search" onChange={handleKeywordChange} />
+          <input
+            type="search"
+            placeholder="Search (ex. kerfuffle, bamboozle, cantankerous ...)"
+            onChange={handleKeywordChange}
+          />
         </form>
       </section>
       <Results results={results} />
