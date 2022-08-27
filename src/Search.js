@@ -25,9 +25,11 @@ export default function Search() {
 
   return (
     <div className="Search">
-      <form onSubmit={search}>
-        <input type="search" onChange={handleKeywordChange} />
-      </form>
+      <section>
+        <form onSubmit={search}>
+          <input type="search" onChange={handleKeywordChange} />
+        </form>
+      </section>
       <Results results={results} />
     </div>
   );

@@ -1,3 +1,14 @@
 form {
   text-align: center;
+  padding: 5px 10px 20px 10px;
+  border-radius: 6px;
+}
+
+input {
+  width: 50%;
+  border-radius: 6px;
+  border: 0px;
+  color: #724060;
+  padding: 6px 10px;
+  box-shadow: 0 10px 10px rgb(248 231 231 / 100%);
 }

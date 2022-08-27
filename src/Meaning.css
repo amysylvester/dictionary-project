@@ -1,0 +1,20 @@
+.Meaning {
+  background: white;
+  border-radius: 6px;
+  margin: 20px 0px;
+  padding: 10px 0 15px 20px;
+  box-shadow: 0 10px 10px rgb(248 231 231 / 100%);
+}
+
+.Meaning em {
+  color: #a070a1;
+  padding: 0 0 0 20px;
+}
+
+.Meaning .definitionExample {
+  margin: 10px;
+}
+
+.Meaning h3 {
+  color: #724060;
+}

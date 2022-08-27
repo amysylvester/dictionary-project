@@ -1,5 +1,9 @@
+body {
+  background: #fdf3f3;
+}
+
 .App-header {
-  color: blueviolet;
+  color: #724060;
   margin: 30px 0;
   text-align: center;
 }
