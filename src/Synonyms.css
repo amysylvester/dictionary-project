@@ -1,0 +1,20 @@
+.Synonyms {
+  padding: 10px 0px 10px 20px;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 10px 10px rgb(248 231 231 / 100%);
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #724060;
+}
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}

@@ -24,7 +24,7 @@ export default function Results(props) {
           return (
             <section key={index}>
               <Meaning meaning={meaning} />
-              <Synonyms synonyms={props.synonyms} />
+              <Synonyms synonyms={meaning.synonyms} />
             </section>
           );
         })}
