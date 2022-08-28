@@ -29,7 +29,7 @@ export default function Search() {
         <form onSubmit={search}>
           <input
             type="search"
-            placeholder="Search (ex. kerfuffle, bamboozle, cantankerous ...)"
+            placeholder="Search (ex. kerfuffle, cantankerous ...)"
             onChange={handleKeywordChange}
           />
         </form>

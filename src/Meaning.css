@@ -17,4 +17,5 @@
 
 .Meaning h3 {
   color: #724060;
+  text-transform: capitalize;
 }

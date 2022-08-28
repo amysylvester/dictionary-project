@@ -1,6 +1,7 @@
 h2 {
   color: #724060;
   padding: 10px 0 0 20px;
+  text-transform: capitalize;
 }
 
 .wordPhonetics {
