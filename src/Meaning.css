@@ -1,9 +1,9 @@
 .Meaning {
   background: white;
   border-radius: 6px;
-  margin: 20px 0px;
-  padding: 10px 0 15px 20px;
   box-shadow: 0 10px 10px rgb(248 231 231 / 100%);
+  margin: 20px 0px;
+  padding: 10px 20px;
 }
 
 .Meaning em {

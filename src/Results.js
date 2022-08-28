@@ -20,14 +20,24 @@ export default function Results(props) {
             );
           })}
         </section>
-        {props.results.meanings.map(function (meaning, index) {
-          return (
-            <section key={index}>
-              <Meaning meaning={meaning} />
-              <Synonyms synonyms={meaning.synonyms} />
-            </section>
-          );
-        })}
+        <section className="definition">
+          {props.results.meanings.map(function (meaning, index) {
+            return (
+              <div key={index}>
+                <Meaning meaning={meaning} />
+              </div>
+            );
+          })}
+        </section>
+        <section className="synonyms">
+          {props.results.meanings.map(function (meaning, index) {
+            return (
+              <div key={index}>
+                <Synonyms synonyms={meaning.synonyms} />
+              </div>
+            );
+          })}
+        </section>
       </div>
     );
   } else {
